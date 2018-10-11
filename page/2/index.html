@@ -64,7 +64,7 @@ ga('send', 'pageview');
 		  <h1 class="header-author"><a href="/ado/">时光机</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">做好每一件事，让优秀成为一种习惯</p>
+		<p class="header-subtitle">复杂的问题简单化   晦涩的问题通俗化</p>
 		
 
 		<nav class="header-menu">
@@ -110,7 +110,7 @@ ga('send', 'pageview');
 			  <h1 class="header-author js-header-author">时光机</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>做好每一件事，让优秀成为一种习惯<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>复杂的问题简单化   晦涩的问题通俗化<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -150,6 +150,94 @@ ga('send', 'pageview');
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-Java-Scoket实现Http服务器处理Post请求" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/29/Java-Scoket实现Http服务器处理Post请求/">Java Scoket实现Http服务器处理Post请求</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/29/Java-Scoket实现Http服务器处理Post请求/" class="archive-article-date">
+  	<time datetime="2018-03-29T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn</a></p>
+<p>Post请求Header格式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">POST / HTTP/1.1</div><div class="line">Content-Type: application/x-www-form-urlencoded</div><div class="line">Content-Length: 4105</div><div class="line">Host: 192.168.3.26</div><div class="line">Connection: Keep-Alive</div><div class="line">Accept-Encoding: gzip</div><div class="line">User-Agent: okhttp/3.8.0</div><div class="line"></div><div class="line">table_name=ACCELERATION&amp;db_data=%7B%22errorMessage%22%3Anull%2C%22isEditable%22%3Atrue%2C%22isSelectQuery%22%3Atrue%2C%22isSuccessful%22%3Atrue%2C%22rows%22%3A%5B%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A1%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A13.322282791137695%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A2%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A313.62994384765625%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A3%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A311.4601745605469%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A4%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A309.58984375%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A5%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A310.34368896484375%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A6%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A438.38037109375%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A7%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A438.5718688964844%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A8%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A308.0724792480469%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A9%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A439.183837890625%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A10%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A308.8055114746094%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A11%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A312.658447265625%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A12%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A13.432709693908691%7D%5D%2C%5B%7B%22dataType%22%3A%22text%22%2C%22value%22%3A%222018%E5%B9%B403%E6%9C%8826%E6%97%A5%20%20%20%2011%3A12%3A16%20%20%20%20%20%20%E5%BC%80%E5%A7%8B%22%7D%2C%7B%22dataType%22%3A%22integer%22%2C%22value%22%3A13%7D%2C%7B%22dataType%22%3A%22real%22%2C%22value%22%3A13.451769828796387%7D%5D%5D%2C%22tableInfos%22%3A%5B%7B%22isPrimary%22%3Atrue%2C%22title%22%3A%22date%22%7D%2C%7B%22isPrimary%22%3Afalse%2C%22title%22%3A%22time%22%7D%2C%7B%22isPrimary%22%3Afalse%2C%22title%22%3A%22acceleration%22%7D%5D%7D</div></pre></td></tr></table></figure></p>
+<p>其中最后一行为post的的参数，和其他header描述之间有一个空行，而且参数是经过urlencoded转码的。<br></p>
+        
+          <a class="article-more-a" href="/2018/03/29/Java-Scoket实现Http服务器处理Post请求/#more">more >></a>
+        
+      
+
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Socket</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Post</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/29/Java-Scoket实现Http服务器处理Post请求/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-Java线程安全和锁优化" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -230,73 +318,6 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-区块链、Hyperledger-Fabric框架Win10环境搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/">区块链、Hyperledger-Fabric框架Win10环境搭建</a>
-    </h1>
-  
-
-        
-        <a href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/" class="archive-article-date">
-  	<time datetime="2018-02-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn</a><br>上一篇： <a href="http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/">区块链、Hyperledger-Fabric框架概览</a><br>说明：<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">本文源于官网，不同的叙述方式，包括踩坑。</div><div class="line">为什么用Win10：</div><div class="line">1、Docker支持Win10比Win7更友好</div><div class="line">2、PowerShell功能强大</div><div class="line">3、没有Mac，Linux没装</div><div class="line">需要：Docker，Node.js，Git bash，Go环境</div></pre></td></tr></table></figure></p>
-        
-          <a class="article-more-a" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/#more">more >></a>
-        
-      
-
-
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-区块链、Hyperledger-Fabric框架概览" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -338,6 +359,73 @@ ga('send', 'pageview');
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2018/02/11/区块链、Hyperledger-Fabric框架概览/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-区块链、Hyperledger-Fabric框架Win10环境搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/">区块链、Hyperledger-Fabric框架Win10环境搭建</a>
+    </h1>
+  
+
+        
+        <a href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/" class="archive-article-date">
+  	<time datetime="2018-02-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-11</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn</a><br>上一篇： <a href="http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/">区块链、Hyperledger-Fabric框架概览</a><br>说明：<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">本文源于官网，不同的叙述方式，包括踩坑。</div><div class="line">为什么用Win10：</div><div class="line">1、Docker支持Win10比Win7更友好</div><div class="line">2、PowerShell功能强大</div><div class="line">3、没有Mac，Linux没装</div><div class="line">需要：Docker，Node.js，Git bash，Go环境</div></pre></td></tr></table></figure></p>
+        
+          <a class="article-more-a" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/#more">more >></a>
+        
+      
+
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/02/11/区块链、Hyperledger-Fabric框架Win10环境搭建/">展开全文 >></a>
         </p>
       
 
@@ -753,20 +841,20 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-Git-Bash使用ppk" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Git常用命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/11/Git-Bash使用ppk/">Git Bash使用ppk</a>
+      <a class="article-title" href="/2016/04/12/Git常用命令/">Git常用命令</a>
     </h1>
   
 
         
-        <a href="/2016/04/11/Git-Bash使用ppk/" class="archive-article-date">
-  	<time datetime="2016-04-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-04-11</time>
+        <a href="/2016/04/12/Git常用命令/" class="archive-article-date">
+  	<time datetime="2016-04-12T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-04-12</time>
 </a>
         
       </header>
@@ -774,9 +862,9 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
-<h4 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h4><p>通过git bash连接到服务器需要ssh key，但是我现在只有一个ppk的文件，所以我需要把ppk文件转成ssh key。<br></p>
+<h4 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h4><p><code>git init</code> //初始化一个git仓库<br><code>git clone</code><br><code>git merge</code><br><code>git fetch</code><br><code>git pull</code><br></p>
         
-          <a class="article-more-a" href="/2016/04/11/Git-Bash使用ppk/#more">more >></a>
+          <a class="article-more-a" href="/2016/04/12/Git常用命令/#more">more >></a>
         
       
 
@@ -802,75 +890,7 @@ ga('send', 'pageview');
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2016/04/11/Git-Bash使用ppk/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Vultr（VPS）使用全纪录" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/11/Vultr（VPS）使用全纪录/">Vultr（VPS）使用全纪录</a>
-    </h1>
-  
-
-        
-        <a href="/2016/02/11/Vultr（VPS）使用全纪录/" class="archive-article-date">
-  	<time datetime="2016-02-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-02-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
-<p><strong>服务端配置：</strong><br>1、选择需要的配置，系统，初始化服务器<br></p>
-        
-          <a class="article-more-a" href="/2016/02/11/Vultr（VPS）使用全纪录/#more">more >></a>
-        
-      
-
-
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/02/11/Vultr（VPS）使用全纪录/">展开全文 >></a>
+          <a class="article-more-a" href="/2016/04/12/Git常用命令/">展开全文 >></a>
         </p>
       
 
@@ -902,7 +922,7 @@ ga('send', 'pageview');
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 
@@ -1000,11 +1020,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">启动模式</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">多线程</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Server</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1020,7 +1052,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
+                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1032,27 +1068,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">广告</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
+                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1069,6 +1085,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">RxJava2</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">广告</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Vim</a>
               </li>
             
             <div class="clearfix"></div>

@@ -20,7 +20,7 @@
 参考网址：https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA
 参考网址：https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA
 问题描述：java类实现activ">
-<meta property="og:updated_time" content="2018-05-18T12:21:43.630Z">
+<meta property="og:updated_time" content="2018-10-11T11:11:12.240Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Activiti ServiceTask不能使用Spring 的bean问题">
 <meta name="twitter:description" content="博客地址：http://blog.stayzeal.cn-时光机
@@ -74,7 +74,7 @@ ga('send', 'pageview');
 		  <h1 class="header-author"><a href="/ado/">时光机</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">做好每一件事，让优秀成为一种习惯</p>
+		<p class="header-subtitle">复杂的问题简单化   晦涩的问题通俗化</p>
 		
 
 		<nav class="header-menu">
@@ -120,7 +120,7 @@ ga('send', 'pageview');
 			  <h1 class="header-author js-header-author">时光机</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>做好每一件事，让优秀成为一种习惯<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>复杂的问题简单化   晦涩的问题通俗化<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -182,7 +182,7 @@ ga('send', 'pageview');
         <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
 <p>参考网址：<a href="https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA" target="_blank" rel="external">https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA</a></p>
 <p>参考网址：<a href="https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA" target="_blank" rel="external">https://groups.google.com/forum/#!topic/camunda-bpm-users/M7K3KXiEHaA</a></p>
-<h4 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h4><p><code>java</code>类实现<code>activiti</code>提供的<code>JavaDelegate</code>接口时，获取不到<code>spring</code>给我们加载的bean类，会报<code>java.lang.NullPointerException</code>；</p>
+<h4 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h4><p><code>java</code>类实现<code>activiti</code>提供的<code>JavaDelegate</code>接口时，获取不到<code>spring</code>给我们加载的bean类，会报<code>java.lang.NullPointerException</code>；<br><a id="more"></a></p>
 <h4 id="解决如下："><a href="#解决如下：" class="headerlink" title="解决如下："></a>解决如下：</h4><p>当使用 <code>activiti:class</code> 把一个<code>class</code>指定给<code>ServiceTask</code>时,需要实现<code>JavaDelegate</code>接口，<code>activiti</code>引擎将会在内部用<code>Class.newInstance(..)</code>方法创建一个该类的对象，这个对象并不<code>spring</code>容器管理，所以无法获取<code>spring</code>容器给我们生成的<code>bean</code>；</p>
 <p>所以我们只能换一种方式来实现 <code>serviceTask</code>的功能，<code>serviceTask</code>还有两个属性：<code>activiti:expression</code>和<code>activiti:delegateExpression</code></p>
 <p><code>activiti:expression=&quot;${retrieveCustomerServiceTask.retrieveCustomer(execution,customerId)}&quot;</code>：会调用<code>retrieveCustomerServiceTask</code>的 <code>retrieveCustomer(execution,customerId)</code>方法，参数<code>execution</code>和<code>JavaDelagate</code> 中的方法<code>execute(DelegateExecution execution )</code>参数一样，参数<code>customerId</code>是自定义的。在这个方法中就可以使用<code>spring</code>为我们提供的<code>bean</code>了。（亲测好用）</p>
@@ -308,8 +308,8 @@ ga('send', 'pageview');
     </a>
   
   
-    <a href="/2014/10/11/Activiti-BoundryTimer-和Listener结合使用学习/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Activiti BoundryTimer 和Listener结合使用学习</div>
+    <a href="/2014/10/11/Mysql-存储过程-Mybatis调用实现插入操作例子/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Mysql 存储过程+Mybatis调用实现插入操作例子</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -455,11 +455,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">启动模式</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">多线程</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Server</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -475,7 +487,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
+                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -487,27 +503,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">广告</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
+                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -524,6 +520,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">RxJava2</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">广告</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Vim</a>
               </li>
             
             <div class="clearfix"></div>

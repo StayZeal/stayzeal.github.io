@@ -20,7 +20,7 @@
 一、
 简介：网上关于存储过程的使用有很多的例子，但大多实现的功能比较简单，由于本人对SQL语句还不是很熟悉，更别说存储过程了，所以在实现该例子的时候遇到了很多问题，现在拿给大家来分享。
 在本例子中mysql +spring +Mybatis 环境已经搭建好了，下面的例子不是完整的代码，但是遇到的问题和解决办法都会给大家详细描述出来，希望在大">
-<meta property="og:updated_time" content="2018-04-29T06:00:07.724Z">
+<meta property="og:updated_time" content="2018-10-11T09:35:22.615Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mysql 存储过程+Mybatis调用实现插入操作例子">
 <meta name="twitter:description" content="博客地址：http://blog.stayzeal.cn
@@ -74,7 +74,7 @@ ga('send', 'pageview');
 		  <h1 class="header-author"><a href="/ado/">时光机</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">做好每一件事，让优秀成为一种习惯</p>
+		<p class="header-subtitle">复杂的问题简单化   晦涩的问题通俗化</p>
 		
 
 		<nav class="header-menu">
@@ -120,7 +120,7 @@ ga('send', 'pageview');
 			  <h1 class="header-author js-header-author">时光机</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>做好每一件事，让优秀成为一种习惯<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>复杂的问题简单化   晦涩的问题通俗化<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -317,18 +317,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2014/10/11/Activiti-BoundryTimer-和Listener结合使用学习/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2014/10/12/Activiti-ServiceTask不能使用Spring-的bean问题/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Activiti BoundryTimer 和Listener结合使用学习
+          Activiti ServiceTask不能使用Spring 的bean问题
         
       </div>
     </a>
   
   
-    <a href="/2014/09/10/Activiti学习一/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Activiti学习（一）</div>
+    <a href="/2014/10/11/Activiti-BoundryTimer-和Listener结合使用学习/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Activiti BoundryTimer 和Listener结合使用学习</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -474,11 +474,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">启动模式</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">多线程</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Server</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -494,7 +506,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
+                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -506,27 +522,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">广告</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Shell</a>
+                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -543,6 +539,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">RxJava2</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Lua</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">广告</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Vim</a>
               </li>
             
             <div class="clearfix"></div>
