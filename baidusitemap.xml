@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2018/11/10/Android-P-%E5%BA%94%E7%94%A8%E5%BE%85%E6%9C%BA%E7%BE%A4%E7%BB%84%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%EF%BC%88%E6%BA%90%E7%A0%81%EF%BC%89%E4%B8%80/</loc>
+    <lastmod>2018-12-10T14:20:06.836Z</lastmod>
+    <data>
+        <display>
+        <title>Android P  应用待机群组原理分析（源码）一</title>
+        <pubTime>2018-11-10T14:32:58.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>framework</tag>
+         
+        <tag>源码</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
     <lastmod>2018-10-26T08:53:19.100Z</lastmod>
     <data>
@@ -113,17 +134,13 @@
     
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/09/10/%E7%94%A8lua%E5%86%99Android%E7%95%8C%E9%9D%A2%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/</loc>
     <lastmod>2018-10-11T09:35:22.617Z</lastmod>
     <data>
         <display>
-        <title>用lua写Android界面学习笔记</title>
-        <pubTime>2015-09-10T09:32:58.000Z</pubTime>
+        <title>区块链、Hyperledger-Fabric框架概览</title>
+        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
         
-        <tag>Android</tag>
-         
-        <tag>Lua</tag>
-         
          
            
         </display>
@@ -149,13 +166,17 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/</loc>
+    <loc>http://blog.stayzeal.cn/2015/09/10/%E7%94%A8lua%E5%86%99Android%E7%95%8C%E9%9D%A2%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2018-10-11T09:35:22.617Z</lastmod>
     <data>
         <display>
-        <title>区块链、Hyperledger-Fabric框架概览</title>
-        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
+        <title>用lua写Android界面学习笔记</title>
+        <pubTime>2015-09-10T09:32:58.000Z</pubTime>
         
+        <tag>Android</tag>
+         
+        <tag>Lua</tag>
+         
          
            
         </display>
@@ -245,21 +266,6 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
-    <data>
-        <display>
-        <title>Java代码行数的统计</title>
-        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
     <lastmod>2018-10-11T09:35:22.615Z</lastmod>
     <data>
@@ -317,19 +323,13 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/02/Java-Socket%E9%80%9A%E4%BF%A1BufferedReader-readLine-%E9%98%BB%E5%A1%9E%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
+    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
     <data>
         <display>
-        <title>Java Socket通信BufferedReader.readLine()阻塞问题</title>
-        <pubTime>2018-04-02T09:32:58.000Z</pubTime>
+        <title>Java代码行数的统计</title>
+        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
         
-        <tag>Java</tag>
-         
-        <tag>Socket</tag>
-         
-        <tag>BufferedReader</tag>
-         
          
            
         </display>
@@ -403,6 +403,27 @@
         <tag>Socket</tag>
          
         <tag>Post</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/04/02/Java-Socket%E9%80%9A%E4%BF%A1BufferedReader-readLine-%E9%98%BB%E5%A1%9E%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <data>
+        <display>
+        <title>Java Socket通信BufferedReader.readLine()阻塞问题</title>
+        <pubTime>2018-04-02T09:32:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Socket</tag>
+         
+        <tag>BufferedReader</tag>
          
          
            
