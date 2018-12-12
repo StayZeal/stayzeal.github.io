@@ -4,18 +4,16 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/11/10/Android-P-%E5%BA%94%E7%94%A8%E5%BE%85%E6%9C%BA%E7%BE%A4%E7%BB%84%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%EF%BC%88%E6%BA%90%E7%A0%81%EF%BC%89%E4%B8%80/</loc>
-    <lastmod>2018-12-10T14:20:06.836Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2015/09/10/%E7%94%A8lua%E5%86%99Android%E7%95%8C%E9%9D%A2%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-12-12T07:54:32.299Z</lastmod>
     <data>
         <display>
-        <title>Android P  应用待机群组原理分析（源码）一</title>
-        <pubTime>2018-11-10T14:32:58.000Z</pubTime>
+        <title>用lua写Android界面学习笔记</title>
+        <pubTime>2015-09-10T09:32:58.000Z</pubTime>
         
         <tag>Android</tag>
          
-        <tag>framework</tag>
-         
-        <tag>源码</tag>
+        <tag>Lua</tag>
          
          
            
@@ -25,14 +23,14 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
-    <lastmod>2018-10-26T08:53:19.100Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/04/12/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BBRxJava2%E6%BA%90%E7%A0%81%EF%BC%8C%E4%BB%A5%E5%8F%8A%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-12-12T07:54:32.298Z</lastmod>
     <data>
         <display>
-        <title>Java匿名内部类使用局部变量需要加final</title>
-        <pubTime>2015-04-10T09:32:58.000Z</pubTime>
+        <title>如何阅读RxJava2源码，以及阅读笔记</title>
+        <pubTime>2018-04-12T09:32:58.000Z</pubTime>
         
-        <tag>Java</tag>
+        <tag>RxJava2</tag>
          
          
            
@@ -42,15 +40,77 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2014/10/12/Activiti-ServiceTask%E4%B8%8D%E8%83%BD%E4%BD%BF%E7%94%A8Spring-%E7%9A%84bean%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2018-10-11T11:11:12.240Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/</loc>
+    <lastmod>2018-12-12T07:54:32.298Z</lastmod>
     <data>
         <display>
-        <title>Activiti ServiceTask不能使用Spring 的bean问题</title>
-        <pubTime>2014-10-12T09:32:58.000Z</pubTime>
+        <title>区块链、Hyperledger-Fabric框架概览</title>
+        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
         
-        <tag>Activiti</tag>
          
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6Win10%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2018-12-12T07:54:32.298Z</lastmod>
+    <data>
+        <display>
+        <title>区块链、Hyperledger-Fabric框架Win10环境搭建</title>
+        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2015/10/12/adb-%E8%8E%B7%E5%8F%96root%E6%9D%83%E9%99%90-adb%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</loc>
+    <lastmod>2018-12-12T07:54:32.298Z</lastmod>
+    <data>
+        <display>
+        <title>adb获取root权限----adb常用命令集合</title>
+        <pubTime>2015-10-12T09:32:58.000Z</pubTime>
+        
+        <tag>adb</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
+    <data>
+        <display>
+        <title>Win10改Win7,Win8 改Win7笔记</title>
+        <pubTime>2018-01-11T09:32:58.000Z</pubTime>
+        
+        <tag>Win10</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2016/02/11/Vultr%EF%BC%88VPS%EF%BC%89%E4%BD%BF%E7%94%A8%E5%85%A8%E7%BA%AA%E5%BD%95/</loc>
+    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
+    <data>
+        <display>
+        <title>Vultr（VPS）使用全纪录</title>
+        <pubTime>2016-02-11T09:32:58.000Z</pubTime>
+        
          
            
         </display>
@@ -60,7 +120,7 @@
     
   <url>
     <loc>http://blog.stayzeal.cn/2015/04/11/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-10-11T11:10:23.962Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
         <title>Linux常用命令笔记</title>
@@ -80,145 +140,8 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/10/12/adb-%E8%8E%B7%E5%8F%96root%E6%9D%83%E9%99%90-adb%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</loc>
-    <lastmod>2018-10-11T11:09:46.129Z</lastmod>
-    <data>
-        <display>
-        <title>adb获取root权限----adb常用命令集合</title>
-        <pubTime>2015-10-12T09:32:58.000Z</pubTime>
-        
-        <tag>adb</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-10-11T11:08:33.244Z</lastmod>
-    <data>
-        <display>
-        <title>Git常用命令</title>
-        <pubTime>2016-04-12T09:32:58.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/10/10/Android-FLAG-ACTIVITY-NEW-TASK%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82/</loc>
-    <lastmod>2018-10-11T10:26:44.029Z</lastmod>
-    <data>
-        <display>
-        <title>Android FLAG_ACTIVITY_NEW_TASK一些使用细节</title>
-        <pubTime>2018-10-10T13:32:58.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>启动模式</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88/</loc>
-    <lastmod>2018-10-11T09:35:22.617Z</lastmod>
-    <data>
-        <display>
-        <title>区块链、Hyperledger-Fabric框架概览</title>
-        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/04/12/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BBRxJava2%E6%BA%90%E7%A0%81%EF%BC%8C%E4%BB%A5%E5%8F%8A%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-10-11T09:35:22.617Z</lastmod>
-    <data>
-        <display>
-        <title>如何阅读RxJava2源码，以及阅读笔记</title>
-        <pubTime>2018-04-12T09:32:58.000Z</pubTime>
-        
-        <tag>RxJava2</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2015/09/10/%E7%94%A8lua%E5%86%99Android%E7%95%8C%E9%9D%A2%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-10-11T09:35:22.617Z</lastmod>
-    <data>
-        <display>
-        <title>用lua写Android界面学习笔记</title>
-        <pubTime>2015-09-10T09:32:58.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Lua</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-10-11T09:35:22.616Z</lastmod>
-    <data>
-        <display>
-        <title>Win10改Win7,Win8 改Win7笔记</title>
-        <pubTime>2018-01-11T09:32:58.000Z</pubTime>
-        
-        <tag>Win10</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/02/11/%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%81Hyperledger-Fabric%E6%A1%86%E6%9E%B6Win10%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2018-10-11T09:35:22.616Z</lastmod>
-    <data>
-        <display>
-        <title>区块链、Hyperledger-Fabric框架Win10环境搭建</title>
-        <pubTime>2018-02-11T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2016/05/12/RxJava-RxAndroid-Subject%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2018-10-11T09:35:22.616Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
         <title>RxJava(RxAndroid)Subject学习</title>
@@ -234,29 +157,16 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2016/02/11/Vultr%EF%BC%88VPS%EF%BC%89%E4%BD%BF%E7%94%A8%E5%85%A8%E7%BA%AA%E5%BD%95/</loc>
-    <lastmod>2018-10-11T09:35:22.616Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/04/23/OkHttp%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
-        <title>Vultr（VPS）使用全纪录</title>
-        <pubTime>2016-02-11T09:32:58.000Z</pubTime>
+        <title>OkHttp源码分析指南</title>
+        <pubTime>2018-04-23T09:32:58.000Z</pubTime>
         
+        <tag>Android</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
-    <data>
-        <display>
-        <title>Java装箱和拆箱字节码分析</title>
-        <pubTime>2018-04-10T09:32:58.000Z</pubTime>
-        
-        <tag>Java</tag>
+        <tag>OkHttp</tag>
          
          
            
@@ -267,7 +177,7 @@
     
   <url>
     <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
         <title>Mysql 存储过程+Mybatis调用实现插入操作例子</title>
@@ -287,27 +197,8 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/23/OkHttp%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
-    <data>
-        <display>
-        <title>OkHttp源码分析指南</title>
-        <pubTime>2018-04-23T09:32:58.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>OkHttp</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2018/03/20/Java%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E5%92%8C%E9%94%81%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
     <data>
         <display>
         <title>Java线程安全和锁优化</title>
@@ -323,40 +214,8 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
-    <lastmod>2018-10-11T09:35:22.615Z</lastmod>
-    <data>
-        <display>
-        <title>Java代码行数的统计</title>
-        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
-    <data>
-        <display>
-        <title>Git Bash使用ppk</title>
-        <pubTime>2016-04-11T09:32:58.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2015/05/12/Java%E5%BA%8F%E5%88%97%E5%8C%96static%E5%8F%98%E9%87%8F%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
     <data>
         <display>
         <title>Java 序列化static变量问题</title>
@@ -370,18 +229,14 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/03/29/Java-Scoket%E5%AE%9E%E7%8E%B0Http%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%A4%84%E7%90%86Post%E8%AF%B7%E6%B1%82/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
     <data>
         <display>
-        <title>Java Scoket实现Http服务器处理Post请求</title>
-        <pubTime>2018-03-29T09:32:58.000Z</pubTime>
+        <title>Java装箱和拆箱字节码分析</title>
+        <pubTime>2018-04-10T09:32:58.000Z</pubTime>
         
         <tag>Java</tag>
-         
-        <tag>Socket</tag>
-         
-        <tag>Post</tag>
          
          
            
@@ -391,18 +246,29 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
+    <lastmod>2018-12-12T07:54:32.294Z</lastmod>
     <data>
         <display>
-        <title>Java Socket实现发送Http请求</title>
-        <pubTime>2018-04-01T09:32:58.000Z</pubTime>
+        <title>Java代码行数的统计</title>
+        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
+    <lastmod>2018-12-12T07:54:32.294Z</lastmod>
+    <data>
+        <display>
+        <title>Java匿名内部类使用局部变量需要加final</title>
+        <pubTime>2015-04-10T09:32:58.000Z</pubTime>
         
         <tag>Java</tag>
-         
-        <tag>Socket</tag>
-         
-        <tag>Post</tag>
          
          
            
@@ -413,7 +279,7 @@
     
   <url>
     <loc>http://blog.stayzeal.cn/2018/04/02/Java-Socket%E9%80%9A%E4%BF%A1BufferedReader-readLine-%E9%98%BB%E5%A1%9E%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2018-10-11T09:35:22.614Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.294Z</lastmod>
     <data>
         <display>
         <title>Java Socket通信BufferedReader.readLine()阻塞问题</title>
@@ -433,8 +299,99 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
+    <lastmod>2018-12-12T07:54:32.293Z</lastmod>
+    <data>
+        <display>
+        <title>Java Socket实现发送Http请求</title>
+        <pubTime>2018-04-01T09:32:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Socket</tag>
+         
+        <tag>Post</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/03/29/Java-Scoket%E5%AE%9E%E7%8E%B0Http%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%A4%84%E7%90%86Post%E8%AF%B7%E6%B1%82/</loc>
+    <lastmod>2018-12-12T07:54:32.293Z</lastmod>
+    <data>
+        <display>
+        <title>Java Scoket实现Http服务器处理Post请求</title>
+        <pubTime>2018-03-29T09:32:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Socket</tag>
+         
+        <tag>Post</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-12-12T07:54:32.293Z</lastmod>
+    <data>
+        <display>
+        <title>Git常用命令</title>
+        <pubTime>2016-04-12T09:32:58.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
+    <lastmod>2018-12-12T07:54:32.292Z</lastmod>
+    <data>
+        <display>
+        <title>Android 隐藏手机号中间四位和邮箱隐藏</title>
+        <pubTime>2015-05-11T09:32:58.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
+    <lastmod>2018-12-12T07:54:32.292Z</lastmod>
+    <data>
+        <display>
+        <title>Git Bash使用ppk</title>
+        <pubTime>2016-04-11T09:32:58.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2018/02/08/Docker%E4%B8%80%E3%80%81%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84Docker/</loc>
-    <lastmod>2018-10-11T09:35:22.613Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.292Z</lastmod>
     <data>
         <display>
         <title>Docker一、我所理解的Docker</title>
@@ -450,42 +407,8 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/01/12/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-10-11T09:35:22.613Z</lastmod>
-    <data>
-        <display>
-        <title>Android反编译工具与技巧总结</title>
-        <pubTime>2018-01-12T09:32:58.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>反编译</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
-    <lastmod>2018-10-11T09:35:22.613Z</lastmod>
-    <data>
-        <display>
-        <title>Android 屏幕亮度调节</title>
-        <pubTime>2017-02-22T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2018/05/11/Android%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E6%96%B9%E6%A1%88%E6%8E%A2%E7%B4%A2-Weibo/</loc>
-    <lastmod>2018-10-11T09:35:22.613Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.291Z</lastmod>
     <data>
         <display>
         <title>Android开屏广告方案探索-Weibo</title>
@@ -505,42 +428,8 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2014/09/10/Activiti%E5%AD%A6%E4%B9%A0%E4%B8%80/</loc>
-    <lastmod>2018-10-11T09:35:22.612Z</lastmod>
-    <data>
-        <display>
-        <title>Activiti学习（一）</title>
-        <pubTime>2014-09-10T09:32:58.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Activiti</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
-    <lastmod>2018-10-11T09:35:22.612Z</lastmod>
-    <data>
-        <display>
-        <title>Android 隐藏手机号中间四位和邮箱隐藏</title>
-        <pubTime>2015-05-11T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2018/04/10/Android%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-10-11T09:35:22.612Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.290Z</lastmod>
     <data>
         <display>
         <title>Android 多线程使用总结</title>
@@ -558,8 +447,42 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2018/01/12/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2018-12-12T07:54:32.290Z</lastmod>
+    <data>
+        <display>
+        <title>Android反编译工具与技巧总结</title>
+        <pubTime>2018-01-12T09:32:58.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>反编译</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
+    <lastmod>2018-12-12T07:54:32.290Z</lastmod>
+    <data>
+        <display>
+        <title>Android 屏幕亮度调节</title>
+        <pubTime>2017-02-22T09:32:58.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2018/05/15/Android-Studio%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95-Smail%E8%B8%A9%E5%9D%91/</loc>
-    <lastmod>2018-10-11T09:35:22.612Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
     <data>
         <display>
         <title>Android Studio动态调试Smail踩坑</title>
@@ -577,8 +500,67 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2018/10/10/Android-FLAG-ACTIVITY-NEW-TASK%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82/</loc>
+    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
+    <data>
+        <display>
+        <title>Android FLAG_ACTIVITY_NEW_TASK一些使用细节</title>
+        <pubTime>2018-10-10T13:32:58.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>启动模式</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/11/10/Android-P-%E5%BA%94%E7%94%A8%E5%BE%85%E6%9C%BA%E7%BE%A4%E7%BB%84%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%EF%BC%88%E6%BA%90%E7%A0%81%EF%BC%89%E4%B8%80/</loc>
+    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
+    <data>
+        <display>
+        <title>Android P  应用待机群组原理分析（源码）一</title>
+        <pubTime>2018-11-10T14:32:58.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>framework</tag>
+         
+        <tag>源码</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2014/09/10/Activiti%E5%AD%A6%E4%B9%A0%E4%B8%80/</loc>
+    <lastmod>2018-12-12T07:54:32.288Z</lastmod>
+    <data>
+        <display>
+        <title>Activiti学习（一）</title>
+        <pubTime>2014-09-10T09:32:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Activiti</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2018/04/11/Andorid%E8%84%B1%E5%A3%B3%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-10-11T09:35:22.612Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.288Z</lastmod>
     <data>
         <display>
         <title>Andorid脱壳工具使用记录</title>
@@ -597,7 +579,7 @@
     
   <url>
     <loc>http://blog.stayzeal.cn/2014/10/11/Activiti-BoundryTimer-%E5%92%8CListener%E7%BB%93%E5%90%88%E4%BD%BF%E7%94%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2018-10-11T09:35:22.611Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.287Z</lastmod>
     <data>
         <display>
         <title>Activiti BoundryTimer 和Listener结合使用学习</title>
@@ -611,4 +593,22 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2014/10/12/Activiti-ServiceTask%E4%B8%8D%E8%83%BD%E4%BD%BF%E7%94%A8Spring-%E7%9A%84bean%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-12-12T07:54:32.287Z</lastmod>
+    <data>
+        <display>
+        <title>Activiti ServiceTask不能使用Spring 的bean问题</title>
+        <pubTime>2014-10-12T09:32:58.000Z</pubTime>
+        
+        <tag>Activiti</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
 </urlset>
