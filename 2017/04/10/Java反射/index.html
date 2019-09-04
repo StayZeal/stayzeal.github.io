@@ -6,17 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://blog.stayzeal.cn">
-  <title>Archives: 2015/5 | 时光机</title>
+  <title>Java反射 | 时光机</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Android，Java，Docker，Node.js">
-<meta property="og:type" content="website">
-<meta property="og:title" content="时光机">
-<meta property="og:url" content="http://blog.stayzeal.cn/archives/2015/05/index.html">
+  <meta name="description" content="博客地址：http://blog.stayzeal.cn-时光机">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java反射">
+<meta property="og:url" content="http://blog.stayzeal.cn/2017/04/10/Java反射/index.html">
 <meta property="og:site_name" content="时光机">
-<meta property="og:description" content="Android，Java，Docker，Node.js">
+<meta property="og:description" content="博客地址：http://blog.stayzeal.cn-时光机">
+<meta property="og:updated_time" content="2019-09-04T07:16:51.072Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="时光机">
-<meta name="twitter:description" content="Android，Java，Docker，Node.js">
+<meta name="twitter:title" content="Java反射">
+<meta name="twitter:description" content="博客地址：http://blog.stayzeal.cn-时光机">
   
     <link rel="alternative" href="/atom.xml" title="时光机" type="application/atom+xml">
   
@@ -143,76 +144,221 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Java反射" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/05/12/Java序列化static变量问题/" class="archive-article-date">
-  	<time datetime="2015-05-12T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-05-12</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/05/12/Java序列化static变量问题/">Java 序列化static变量问题</a>
+    <h1 class="article-title" itemprop="name">
+      Java反射
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/05/11/Android隐藏手机号中间四位和邮箱隐藏/" class="archive-article-date">
-  	<time datetime="2015-05-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-05-11</time>
+        
+        <a href="/2017/04/10/Java反射/" class="archive-article-date">
+  	<time datetime="2017-04-10T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-10</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/05/11/Android隐藏手机号中间四位和邮箱隐藏/">Android 隐藏手机号中间四位和邮箱隐藏</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
+<a id="more"></a>
+<h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><p><code>public static Class&lt;?&gt; forName(String className)</code><br><code>public static Class&lt;?&gt; forName(String name, boolean initialize,ClassLoader loader)</code></p>
+<ul>
+<li><p>内部类(包括静态内部类)<br>1、<code>Outer$Inner</code>（通过反编译可以看到内部类是这种表达形式）<br>2、<code>public native Class&lt;?&gt;[] getDeclaredClasses()</code>返回所有的内部类，但是不包含继承的类。</p>
+</li>
+<li><p>父类<br>1、<code>public Class&lt;?&gt;[] getInterfaces()</code>获取所有实现的接口，接口顺序和extends顺序一致<br>2、<code>public Class&lt;? super T&gt; getSuperclass()</code> 获取父类，如果是数组则返回Object对象；如果是Object，基础类型或者void，返回null；</p>
+</li>
+</ul>
+<h1 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h1><p>首先获取类：<code>Class clz = Activity.class</code><br>然后实例化：<code>clz.newInstance()</code></p>
+<ul>
+<li>内部类对象<br>同上</li>
+<li>通过非静态内部类拿外部类的引用<br>反射该属性：this$0</li>
+</ul>
+<h1 id="方法Method"><a href="#方法Method" class="headerlink" title="方法Method"></a>方法Method</h1><ul>
+<li>private protect public override static<br><code>getMethod()</code>获取所有public的方法，包括父类；<br><code>getDeclaredMethod()</code>获取所有的方法，但是不包括父类方法<br>所以无法直接获取父类的非public方法。可以通过现获取父类，然后调用<code>getDeclaredMethod()</code></li>
+<li>方法调用<br><code>public native Object invoke(Object obj, Object... args)</code>，obj代表对象，args代表方法参数。</li>
+</ul>
+<h1 id="属性Field"><a href="#属性Field" class="headerlink" title="属性Field"></a>属性Field</h1><ul>
+<li>private protect public override static<br><code>getField()</code>获取所有public的属性，包括父类<br><code>getDeclaredField()</code>获取所有的属性，包括private，不包括父类<br>所以无法直接获取父类的非public属性。可以通过现获取父类，然后调用<code>getDeclaredField()</code></li>
+<li>获取属性值<br><code>public native Object get(Object obj)</code><br>如果是private需要调用<code>setAccessible(true)</code></li>
+</ul>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>代码永无BUG<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wxpay.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://blog.stayzeal.cn/2017/04/10/Java反射/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2018/01/11/Win10改Win7-Win8-改Win7笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Win10改Win7,Win8 改Win7笔记
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2017/02/22/Android屏幕亮度调节/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Android 屏幕亮度调节</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
   
 
-    
+  
+
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div>
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "Mon Apr 10 2017 17:32:58 GMT+0800",
+  owner: 'StayZeal',
+  repo: 'Hexo-custom',
+  oauth: {
+    client_id: 'f8f31b4370cbb4ba6432',
+    client_secret: '634c09fa9c5c3686342b69102e3925efee5343c8',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+
+  
 
 
           </div>
@@ -241,8 +387,8 @@ ga('send', 'pageview');
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
