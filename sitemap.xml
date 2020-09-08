@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.stayzeal.cn/2020/09/11/JniEnv%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8/</loc>
+    
+    <lastmod>2020-09-08T10:31:36.940Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.stayzeal.cn/2017/04/10/Java%E5%8F%8D%E5%B0%84/</loc>
     
     <lastmod>2019-09-04T07:16:51.072Z</lastmod>
@@ -44,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.stayzeal.cn/2016/02/11/Vultr%EF%BC%88VPS%EF%BC%89%E4%BD%BF%E7%94%A8%E5%85%A8%E7%BA%AA%E5%BD%95/</loc>
     
     <lastmod>2018-12-12T07:54:32.297Z</lastmod>
@@ -58,9 +58,9 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
+    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
     
   </url>
   
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2016/05/12/RxJava-RxAndroid-Subject%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
     
     <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     
@@ -86,9 +86,9 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
+    <loc>http://blog.stayzeal.cn/2016/05/12/RxJava-RxAndroid-Subject%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     
   </url>
   
@@ -107,7 +107,14 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
+    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
+    
+    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
     
     <lastmod>2018-12-12T07:54:32.294Z</lastmod>
     
@@ -121,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
+    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
     
     <lastmod>2018-12-12T07:54:32.294Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
+    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-12-12T07:54:32.293Z</lastmod>
     
@@ -142,14 +149,14 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
     
     <lastmod>2018-12-12T07:54:32.293Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
+    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
     
     <lastmod>2018-12-12T07:54:32.292Z</lastmod>
     
@@ -163,7 +170,7 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
+    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
     
     <lastmod>2018-12-12T07:54:32.292Z</lastmod>
     
@@ -177,14 +184,14 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
+    <loc>http://blog.stayzeal.cn/2018/01/12/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93/</loc>
     
     <lastmod>2018-12-12T07:54:32.290Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2018/01/12/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
     
     <lastmod>2018-12-12T07:54:32.290Z</lastmod>
     
@@ -198,13 +205,6 @@
   </url>
   
   <url>
-    <loc>http://blog.stayzeal.cn/2018/05/15/Android-Studio%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95-Smail%E8%B8%A9%E5%9D%91/</loc>
-    
-    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.stayzeal.cn/2018/10/10/Android-FLAG-ACTIVITY-NEW-TASK%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E7%BB%86%E8%8A%82/</loc>
     
     <lastmod>2018-12-12T07:54:32.289Z</lastmod>
@@ -213,6 +213,13 @@
   
   <url>
     <loc>http://blog.stayzeal.cn/2018/11/10/Android-P-%E5%BA%94%E7%94%A8%E5%BE%85%E6%9C%BA%E7%BE%A4%E7%BB%84%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%EF%BC%88%E6%BA%90%E7%A0%81%EF%BC%89%E4%B8%80/</loc>
+    
+    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/05/15/Android-Studio%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95-Smail%E8%B8%A9%E5%9D%91/</loc>
     
     <lastmod>2018-12-12T07:54:32.289Z</lastmod>
     

@@ -145,6 +145,94 @@ ga('send', 'pageview');
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-JniEnv多线程使用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/09/11/JniEnv多线程使用/">JniEnv在多线程环境的使用</a>
+    </h1>
+  
+
+        
+        <a href="/2020/09/11/JniEnv多线程使用/" class="archive-article-date">
+  	<time datetime="2020-09-11T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-11</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
+<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>JniEnv用来描述线程的Jni环境（从名字上来看就是不能跨进程使用的），但是在使用的过程存在如下疑问：</p>
+<p>JniEnv的内存肯定是分配在堆上的，所以理论上是多线程都可以访问到这个结构体（对象）？但是Android的文档却说不能跨进程使用。<br>这是怎么回事呢？到底是哪里限制JniEnv的多线程使用呢？</p>
+        
+          <a class="article-more-a" href="/2020/09/11/JniEnv多线程使用/#more">more >></a>
+        
+      
+
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Android</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Jni</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/09/11/JniEnv多线程使用/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Android-P-应用待机群组原理分析（源码）一" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -737,84 +825,6 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-Java装箱和拆箱字节码分析" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/10/Java装箱和拆箱字节码分析/">Java装箱和拆箱字节码分析</a>
-    </h1>
-  
-
-        
-        <a href="/2018/04/10/Java装箱和拆箱字节码分析/" class="archive-article-date">
-  	<time datetime="2018-04-10T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-10</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
-        
-          <a class="article-more-a" href="/2018/04/10/Java装箱和拆箱字节码分析/#more">more >></a>
-        
-      
-
-
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/04/10/Java装箱和拆箱字节码分析/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-Android多线程使用总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -904,32 +914,29 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-Java-Socket通信BufferedReader-readLine-阻塞问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java装箱和拆箱字节码分析" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/02/Java-Socket通信BufferedReader-readLine-阻塞问题/">Java Socket通信BufferedReader.readLine()阻塞问题</a>
+      <a class="article-title" href="/2018/04/10/Java装箱和拆箱字节码分析/">Java装箱和拆箱字节码分析</a>
     </h1>
   
 
         
-        <a href="/2018/04/02/Java-Socket通信BufferedReader-readLine-阻塞问题/" class="archive-article-date">
-  	<time datetime="2018-04-02T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-02</time>
+        <a href="/2018/04/10/Java装箱和拆箱字节码分析/" class="archive-article-date">
+  	<time datetime="2018-04-10T09:32:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-10</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn</a></p>
-<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><ul>
-<li><a href="http://blog.stayzeal.cn/2018/03/29/Java-Scoket%E5%AE%9E%E7%8E%B0Http%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%A4%84%E7%90%86Post%E8%AF%B7%E6%B1%82/">Java Scoket实现Http服务器处理Post请求-称为S</a></li>
-<li><a href="http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/">Java Socket实现发送Http请求-称为mC</a></li></ul>
+        <p>博客地址：<a href="http://blog.stayzeal.cn">http://blog.stayzeal.cn-时光机</a></p>
         
-          <a class="article-more-a" href="/2018/04/02/Java-Socket通信BufferedReader-readLine-阻塞问题/#more">more >></a>
+          <a class="article-more-a" href="/2018/04/10/Java装箱和拆箱字节码分析/#more">more >></a>
         
       
 
@@ -947,14 +954,6 @@ ga('send', 'pageview');
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Socket</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">BufferedReader</a>
-        		</li>
       		
 		</ul>
 	</div>
@@ -963,7 +962,7 @@ ga('send', 'pageview');
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/04/02/Java-Socket通信BufferedReader-readLine-阻塞问题/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/04/10/Java装箱和拆箱字节码分析/">展开全文 >></a>
         </p>
       
 
@@ -1007,7 +1006,7 @@ ga('send', 'pageview');
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 时光机
+    		&copy; 2020 时光机
          <span id="busuanzi_container_site_pv">博客总访问量<span id="busuanzi_value_site_pv"></span>次</span>
     	</div>
       	<div class="footer-right">
@@ -1093,11 +1092,23 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">启动模式</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">反编译</a>
+                <a href="javascript:void(0)" class="js-tag color5">framework</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">源码</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">广告</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1125,22 +1136,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">framework</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">源码</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">RxJava</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Linux</a>
               </li>
              
@@ -1161,6 +1156,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">OkHttp</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">RxJava</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Win10</a>
               </li>
              
@@ -1177,7 +1180,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">广告</a>
+                <a href="javascript:void(0)" class="js-tag color4">Jni</a>
               </li>
             
             <div class="clearfix"></div>

@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2020/09/11/JniEnv%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2020-09-08T10:31:36.940Z</lastmod>
+    <data>
+        <display>
+        <title>JniEnv在多线程环境的使用</title>
+        <pubTime>2020-09-11T09:32:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Android</tag>
+         
+        <tag>Jni</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2017/04/10/Java%E5%8F%8D%E5%B0%84/</loc>
     <lastmod>2019-09-04T07:16:51.072Z</lastmod>
     <data>
@@ -104,23 +125,6 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
-    <data>
-        <display>
-        <title>Win10改Win7,Win8 改Win7笔记</title>
-        <pubTime>2018-01-11T09:32:58.000Z</pubTime>
-        
-        <tag>Win10</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2016/02/11/Vultr%EF%BC%88VPS%EF%BC%89%E4%BD%BF%E7%94%A8%E5%85%A8%E7%BA%AA%E5%BD%95/</loc>
     <lastmod>2018-12-12T07:54:32.297Z</lastmod>
     <data>
@@ -136,18 +140,14 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
-    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/01/11/Win10%E6%94%B9Win7-Win8-%E6%94%B9Win7%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-12-12T07:54:32.297Z</lastmod>
     <data>
         <display>
-        <title>Mysql 存储过程+Mybatis调用实现插入操作例子</title>
-        <pubTime>2014-10-11T09:32:58.000Z</pubTime>
+        <title>Win10改Win7,Win8 改Win7笔记</title>
+        <pubTime>2018-01-11T09:32:58.000Z</pubTime>
         
-        <tag>Java</tag>
-         
-        <tag>MySql</tag>
-         
-        <tag>MyBatis</tag>
+        <tag>Win10</tag>
          
          
            
@@ -178,14 +178,18 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2016/05/12/RxJava-RxAndroid-Subject%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://blog.stayzeal.cn/2014/10/11/Mysql%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B-Mybatis%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E4%BE%8B%E5%AD%90/</loc>
     <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
-        <title>RxJava(RxAndroid)Subject学习</title>
-        <pubTime>2016-05-12T09:32:58.000Z</pubTime>
+        <title>Mysql 存储过程+Mybatis调用实现插入操作例子</title>
+        <pubTime>2014-10-11T09:32:58.000Z</pubTime>
         
-        <tag>RxJava</tag>
+        <tag>Java</tag>
+         
+        <tag>MySql</tag>
+         
+        <tag>MyBatis</tag>
          
          
            
@@ -214,14 +218,14 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2016/05/12/RxJava-RxAndroid-Subject%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2018-12-12T07:54:32.296Z</lastmod>
     <data>
         <display>
-        <title>Java装箱和拆箱字节码分析</title>
-        <pubTime>2018-04-10T09:32:58.000Z</pubTime>
+        <title>RxJava(RxAndroid)Subject学习</title>
+        <pubTime>2016-05-12T09:32:58.000Z</pubTime>
         
-        <tag>Java</tag>
+        <tag>RxJava</tag>
          
          
            
@@ -263,15 +267,30 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
-    <lastmod>2018-12-12T07:54:32.294Z</lastmod>
+    <loc>http://blog.stayzeal.cn/2018/04/10/Java%E8%A3%85%E7%AE%B1%E5%92%8C%E6%8B%86%E7%AE%B1%E5%AD%97%E8%8A%82%E7%A0%81%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2018-12-12T07:54:32.295Z</lastmod>
     <data>
         <display>
-        <title>Java匿名内部类使用局部变量需要加final</title>
-        <pubTime>2015-04-10T09:32:58.000Z</pubTime>
+        <title>Java装箱和拆箱字节码分析</title>
+        <pubTime>2018-04-10T09:32:58.000Z</pubTime>
         
         <tag>Java</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
+    <lastmod>2018-12-12T07:54:32.294Z</lastmod>
+    <data>
+        <display>
+        <title>Java代码行数的统计</title>
+        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
+        
          
            
         </display>
@@ -301,13 +320,15 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/02/11/Java%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%95%B0%E7%9A%84%E7%BB%9F%E8%AE%A1/</loc>
+    <loc>http://blog.stayzeal.cn/2015/04/10/Java%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E4%BD%BF%E7%94%A8%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E9%9C%80%E8%A6%81%E5%8A%A0final/</loc>
     <lastmod>2018-12-12T07:54:32.294Z</lastmod>
     <data>
         <display>
-        <title>Java代码行数的统计</title>
-        <pubTime>2015-02-11T09:32:58.000Z</pubTime>
+        <title>Java匿名内部类使用局部变量需要加final</title>
+        <pubTime>2015-04-10T09:32:58.000Z</pubTime>
         
+        <tag>Java</tag>
+         
          
            
         </display>
@@ -316,18 +337,14 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
+    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2018-12-12T07:54:32.293Z</lastmod>
     <data>
         <display>
-        <title>Java Socket实现发送Http请求</title>
-        <pubTime>2018-04-01T09:32:58.000Z</pubTime>
+        <title>Git常用命令</title>
+        <pubTime>2016-04-12T09:32:58.000Z</pubTime>
         
-        <tag>Java</tag>
-         
-        <tag>Socket</tag>
-         
-        <tag>Post</tag>
+        <tag>Git</tag>
          
          
            
@@ -358,14 +375,18 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2016/04/12/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://blog.stayzeal.cn/2018/04/01/Java-Socket%E5%AE%9E%E7%8E%B0%E5%8F%91%E9%80%81Http%E8%AF%B7%E6%B1%82/</loc>
     <lastmod>2018-12-12T07:54:32.293Z</lastmod>
     <data>
         <display>
-        <title>Git常用命令</title>
-        <pubTime>2016-04-12T09:32:58.000Z</pubTime>
+        <title>Java Socket实现发送Http请求</title>
+        <pubTime>2018-04-01T09:32:58.000Z</pubTime>
         
-        <tag>Git</tag>
+        <tag>Java</tag>
+         
+        <tag>Socket</tag>
+         
+        <tag>Post</tag>
          
          
            
@@ -375,15 +396,13 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
+    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
     <lastmod>2018-12-12T07:54:32.292Z</lastmod>
     <data>
         <display>
-        <title>Git Bash使用ppk</title>
-        <pubTime>2016-04-11T09:32:58.000Z</pubTime>
+        <title>Android 隐藏手机号中间四位和邮箱隐藏</title>
+        <pubTime>2015-05-11T09:32:58.000Z</pubTime>
         
-        <tag>Git</tag>
-         
          
            
         </display>
@@ -409,13 +428,15 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2015/05/11/Android%E9%9A%90%E8%97%8F%E6%89%8B%E6%9C%BA%E5%8F%B7%E4%B8%AD%E9%97%B4%E5%9B%9B%E4%BD%8D%E5%92%8C%E9%82%AE%E7%AE%B1%E9%9A%90%E8%97%8F/</loc>
+    <loc>http://blog.stayzeal.cn/2016/04/11/Git-Bash%E4%BD%BF%E7%94%A8ppk/</loc>
     <lastmod>2018-12-12T07:54:32.292Z</lastmod>
     <data>
         <display>
-        <title>Android 隐藏手机号中间四位和邮箱隐藏</title>
-        <pubTime>2015-05-11T09:32:58.000Z</pubTime>
+        <title>Git Bash使用ppk</title>
+        <pubTime>2016-04-11T09:32:58.000Z</pubTime>
         
+        <tag>Git</tag>
+         
          
            
         </display>
@@ -445,21 +466,6 @@
 
     
   <url>
-    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
-    <lastmod>2018-12-12T07:54:32.290Z</lastmod>
-    <data>
-        <display>
-        <title>Android 屏幕亮度调节</title>
-        <pubTime>2017-02-22T09:32:58.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.stayzeal.cn/2018/01/12/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-12-12T07:54:32.290Z</lastmod>
     <data>
@@ -479,6 +485,21 @@
 
     
   <url>
+    <loc>http://blog.stayzeal.cn/2017/02/22/Android%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E8%B0%83%E8%8A%82/</loc>
+    <lastmod>2018-12-12T07:54:32.290Z</lastmod>
+    <data>
+        <display>
+        <title>Android 屏幕亮度调节</title>
+        <pubTime>2017-02-22T09:32:58.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.stayzeal.cn/2018/04/10/Android%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-12-12T07:54:32.290Z</lastmod>
     <data>
@@ -489,25 +510,6 @@
         <tag>Android</tag>
          
         <tag>多线程</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.stayzeal.cn/2018/05/15/Android-Studio%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95-Smail%E8%B8%A9%E5%9D%91/</loc>
-    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
-    <data>
-        <display>
-        <title>Android Studio动态调试Smail踩坑</title>
-        <pubTime>2018-05-15T09:32:58.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>反编译</tag>
          
          
            
@@ -548,6 +550,25 @@
         <tag>framework</tag>
          
         <tag>源码</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.stayzeal.cn/2018/05/15/Android-Studio%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95-Smail%E8%B8%A9%E5%9D%91/</loc>
+    <lastmod>2018-12-12T07:54:32.289Z</lastmod>
+    <data>
+        <display>
+        <title>Android Studio动态调试Smail踩坑</title>
+        <pubTime>2018-05-15T09:32:58.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>反编译</tag>
          
          
            
